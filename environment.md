@@ -7,12 +7,12 @@ A sample environment.yml file:
 
     name: env-name
     dependencies:
-        - python 3.4
+        - python=3.4
         - numpy
 
 Once your environment.yml file is in place (in the appropriate directory)
 
-    conda env create
+    conda env create --name <env-name>
 
 Then to activate the environment for that project simply type
 
@@ -20,4 +20,4 @@ Then to activate the environment for that project simply type
 
 #### Reference:
 There is a lot more to conda environments than what is listed here, but this is plenty to get started.
-- [Offical Conda Env Docs](http://conda.pydata.org/docs/using/envs.html)
+- [Offical Conda Env Docs](https://github.com/conda/conda-env)
