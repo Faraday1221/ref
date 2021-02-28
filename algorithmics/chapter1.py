@@ -108,7 +108,7 @@ def russe(a: int, b: int) -> int:
     logging.debug(f"bit length: m={a.bit_length()}, n={b.bit_length()}")
     return prod
 
-# a, b = 45, 1945, 
+# a, b = 45, 1945
 
 def gcd(m: int, n: int) -> int:
     """greatest common denominator"""
