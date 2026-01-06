@@ -19,4 +19,6 @@ uv add --dev ruff
 # consider config from: https://docs.astral.sh/ruff/configuration/
 
 # .gitignore from gitignore.io
+
+uv add torch torchvision pyro-ppl pgmpy
 ```
