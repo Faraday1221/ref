@@ -21,4 +21,7 @@ uv add --dev ruff
 # .gitignore from gitignore.io
 
 uv add torch torchvision pyro-ppl pgmpy
+
+# deactivate venv
+deactivate
 ```
